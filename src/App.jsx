@@ -68,6 +68,7 @@ const Textarea = styled('textarea')`
   background-color: #444;
   color: #eee;
   outline: none;
+  resize: none;
 
   &:active, &:hover {
     border: 1px solid lightblue;
