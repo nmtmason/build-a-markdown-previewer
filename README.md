@@ -1,4 +1,4 @@
-# [Build the Game of Life](https://www.freecodecamp.com/challenges/build-the-game-of-life)
+# [Build a Markdown Previewer](https://www.freecodecamp.com/challenges/build-a-markdown-previewer)
 
 Part of the [freecodecamp](https://www.freecodecamp.com) curriculum.
 
