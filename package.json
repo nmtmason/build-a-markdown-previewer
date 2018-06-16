@@ -4,21 +4,23 @@
   "private": true,
   "homepage": "https://nmtmason.github.io/build-a-markdown-previewer",
   "dependencies": {
-    "marked": "^0.3.6",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
-    "styled-components": "^1.4.6"
+    "emotion": "^9.2.3",
+    "he": "^1.1.1",
+    "marked": "^0.4.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-emotion": "^9.2.3"
   },
   "devDependencies": {
-    "gh-pages": "^0.12.0",
-    "react-scripts": "0.9.5"
+    "gh-pages": "^1.2.0",
+    "react-scripts": "1.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   }
 }
